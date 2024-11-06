@@ -1,0 +1,25 @@
+/* TODO */
+button {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:first-of-type {
+  background-color: #ff99cc; /* Pink button */
+  box-shadow: 0 4px 8px rgba(255, 153, 204, 0.5);
+}
+
+button:last-of-type {
+  background-color: #8a436b; /* Darker pink/purple button */
+  box-shadow: 0 4px 8px rgba(138, 67, 107, 0.5);
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
